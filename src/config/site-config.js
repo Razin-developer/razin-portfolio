@@ -1,0 +1,20 @@
+// Default site configuration - this will be overridden by the dynamic config
+export const siteConfig = {
+  siteName: 'Portfolio',
+  siteDescription: 'Portfolio Website',
+  copyright: '© 2025 Portfolio. All rights reserved.',
+  navigation: { logo: 'Portfolio', menuItems: [] },
+  sections: {},
+  hero: { greeting: 'Hello', name: 'Developer', title: 'Developer' },
+  personalDetails: { title: 'About', content: 'About me' },
+  workExperience: { title: 'Experience', experiences: [] },
+  education: { title: 'Education', degrees: [] },
+  skills: { title: 'Skills', categories: [] },
+  projects: { title: 'Projects', projects: [] },
+  achievements: { title: 'Achievements', achievements: [] },
+  careerGoals: { title: 'Goals', goals: [] },
+  socialLinks: { title: 'Connect', links: [] },
+  testimonials: { title: 'Testimonials', testimonials: [] },
+  contact: { title: 'Contact', email: 'contact@example.com' },
+  footer: { title: 'Footer', description: 'Footer content' },
+}
